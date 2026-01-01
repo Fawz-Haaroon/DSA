@@ -1,95 +1,12 @@
-# NeetCode 150 progress tracker
-
-
-[unsolved]
-
-# Array & Hashing
-lc217 = true
-lc242 = true
-lc1   = true
-lc49  = true
-lc347 = true
+[solved]
 lc238 = true
-lc36  = true
+lc1 = true
+lc242 = true
 lc128 = true
+lc217 = true
+lc347 = true
+lc36 = true
 lc271 = true
+lc49 = true
 
-# Two Pointers
-lc125 = true
-lc167 = true
-lc15  = true
-lc11  = true
-lc42  = true
-
-# Sliding Window
-lc121 = true
-lc3   = true
-lc424 = true
-lc567 = true
-lc76  = true
-lc239 = true
-
-# Stack
-lc20  = true
-lc155 = true
-lc150 = true
-lc739 = true
-lc853 = true
-lc84  = true
-
-# Binary Search
-lc704 = true
-lc74  = true
-lc875 = true
-lc153 = true
-lc33  = true
-lc981 = true
-lc4   = true
-
-# Linked List
-lc206 = true
-lc21  = true
-lc143 = true
-lc19  = true
-lc138 = true
-lc2   = true
-lc141 = true
-lc287 = true
-lc146 = true
-lc23  = true
-lc25  = true
-
-# Trees
-lc226  = true
-lc104  = true
-lc543  = true
-lc110  = true
-lc100  = true
-lc572  = true
-lc235  = true
-lc102  = true
-lc199  = true
-lc98   = true
-lc230  = true
-lc105  = true
-lc124  = true
-lc297  = true
-lc1448 = true
-
-# Heap / Priority Queue
-lc215 = true
-lc703 = true
-lc973 = true
-lc295 = true
-lc621 = true
-lc355 = true
-
-# Backtracking
-lc78  = true
-lc39  = true
-lc40  = true
-lc46  = true
-lc47  = true
-lc131 = true
-lc1
-
+[in_progress]
