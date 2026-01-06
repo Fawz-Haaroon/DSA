@@ -1,0 +1,14 @@
+# Rust binaries
+A_*
+B_*
+C_*
+D_*
+*.exe
+*.out
+*.bin
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.swo
+
