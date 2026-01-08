@@ -1,14 +1,10 @@
-# Rust binaries
+# Rust binaries (no extension)
 A_*
+!A_*.rs
 B_*
+!B_*.rs
 C_*
+!C_*.rs
 D_*
-*.exe
-*.out
-*.bin
-
-# OS / editor junk
-.DS_Store
-*.swp
-*.swo
+!D_*.rs
 
