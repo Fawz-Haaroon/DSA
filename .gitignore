@@ -1,0 +1,17 @@
+# =====================
+# Global Rust ignores
+# =====================
+target/
+**/target/
+Cargo.lock
+
+# Rust tooling
+.rustc_info.json
+flycheck0/
+incremental/
+.fingerprint/
+
+# Editor / OS junk
+.DS_Store
+*.swp
+*.swo
