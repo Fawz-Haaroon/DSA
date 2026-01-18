@@ -1,43 +1,9 @@
-# DSA (Rust)
+Random DSA work in Rust.
 
-Personal workspace for data structures & algorithms practice in Rust.
+`LEETCODE/NC150` is a straight NeetCode 150 run. Progress is tracked manually in `solved.toml`. If something isn’t marked there, it’s not done.
 
-The repository is intentionally split by purpose.
+`LEETCODE/PRACTICE` is just practice. Extra problems, redoing things, interview prep, whatever felt worth writing down.
 
----
+`CODEFORCES` is an archive of solutions I submitted there. It’s only for reference.
 
-## Structure
-
-### `LEETCODE/NC150`
-Canonical NeetCode 150 problems.
-
-- Strictly tracked via `solved.toml`
-- Problems are considered solved **only** if explicitly marked
-- One source of truth, no inference, no automation
-- Focused on correctness, invariants, and production-quality implementations
-
-### `LEETCODE/PRACTICE`
-Free-form problem solving.
-
-- Problems outside NC150
-- Re-solving known problems for deeper understanding
-- Interview-driven exploration
-- No progress tracking contract
-
-### `CODEFORCES`
-Archive of Codeforces solutions.
-
-- Mirrors online submissions
-- Stored for reference and review
-- Git history here is not meant to reflect Codeforces activity
-
----
-
-## Notes
-
-- Rust is used deliberately for low-level clarity and correctness
-- Multiple approaches may be documented per problem
-- Only one active solution is kept per file
-- Build artifacts are ignored at the repo root
-
-This repo is a workspace, not a showcase.
+Most files keep one working solution. Other approaches stay commented if they’re useful.
