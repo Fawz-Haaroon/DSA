@@ -1,17 +1,56 @@
-# =====================
-# Global Rust ignores
-# =====================
+# ==========================================
+# Rust
+# ==========================================
+
+# Build output
 target/
 **/target/
+
+# Cargo lockfiles
+# Ignore for libraries / practice crates.
+# If you later have an application crate, remove this.
 Cargo.lock
+**/Cargo.lock
 
-# Rust tooling
+# Rust compiler metadata
 .rustc_info.json
-flycheck0/
-incremental/
-.fingerprint/
+**/.rustc_info.json
 
-# Editor / OS junk
-.DS_Store
+# Incremental compilation
+incremental/
+**/incremental/
+
+# Cargo fingerprint metadata
+.fingerprint/
+**/.fingerprint/
+
+# Cargo internals
+.cargo-lock
+**/.cargo-lock
+
+# Cache files
+CACHEDIR.TAG
+**/CACHEDIR.TAG
+
+# Rust Analyzer / Flycheck
+flycheck0/
+**/flycheck0/
+
+# ==========================================
+# Editors
+# ==========================================
+
+.vscode/
+.idea/
+
 *.swp
 *.swo
+*~
+
+# ==========================================
+# OS
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
