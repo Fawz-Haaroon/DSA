@@ -1,4 +1,4 @@
-Random DSA work in Rust.
+Just my Unsolicited DSA work in Rust > <
 
 `LEETCODE/NC150` is a straight NeetCode 150 run. Progress is tracked manually in `solved.toml`. If something isn’t marked there, it’s not done.
 
