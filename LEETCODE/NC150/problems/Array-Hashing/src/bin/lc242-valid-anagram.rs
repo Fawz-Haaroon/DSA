@@ -79,3 +79,24 @@ fn main() {
     println!("Valid Anagram? : {}", ans);
 
 }
+
+
+
+
+
+/*
+use std::collections::HashMap;
+
+impl Solution {
+    pub fn is_anagram(s: String, t: String) -> bool {
+        if s.len() != t.len() { return false; }
+
+        let mut count: HashMap<char, i32> = HashMap::new();
+        for (&a,&b) in s.as_bytes().iter().zip(t.as_bytes()) {
+            *count.entry(a as char).or_insert(0) += 1;
+            *count.entry(b as char).or_insert(0) -= 1;
+        }
+        count.values().all(|&x| x == 0 )
+    }
+}
+*/
